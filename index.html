@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Mental Health Companion</title>
+    <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+    <div class="background-orb orb-one"></div>
+    <div class="background-orb orb-two"></div>
+
+    <div class="app-shell">
+        <header class="hero-card">
+            <div class="hero-badge">🌼 Supportive • 💛 Gentle • ✨ Thoughtful</div>
+            <h1>AI Mental Health Companion</h1>
+            <p>Share what is on your mind and receive a calm, caring response with supportive suggestions tailored to your mood.</p>
+            <div class="hero-highlights">
+                <span>💬 Empathetic</span>
+                <span>🌿 Calm tone</span>
+                <span>🫶 Helpful tips</span>
+            </div>
+        </header>
+
+        <main class="chat-card">
+            <div id="chat-window" class="chat-window">
+                <div class="welcome-message">
+                    <div class="avatar">💛</div>
+                    <div>
+                        <strong>Companion 🌈</strong>
+                        <p>Hi there — I’m here with you. Tell me how your day has been 🌤️</p>
+                    </div>
+                </div>
+            </div>
+
+            <form id="chat-form" class="chat-form">
+                <textarea id="message-input" placeholder="How are you feeling today?" rows="2"></textarea>
+                <div class="form-actions">
+                    <span class="helper-text">🕊️ Your words are welcome here.</span>
+                    <button type="submit">Send ✉️</button>
+                </div>
+            </form>
+
+            <div id="suggestions" class="suggestions"></div>
+        </main>
+    </div>
+
+    <script src="/static/js/chat.js"></script>
+</body>
+</html>
